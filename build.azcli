@@ -1,0 +1,3 @@
+docker build . -t iameprel/angular-cli
+
+docker push iameprel/angular-cli
