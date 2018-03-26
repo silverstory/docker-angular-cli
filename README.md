@@ -17,6 +17,15 @@ FROM iameprel/angular-cli
 ```
 
 docker login error - error getting credentials - err: exec: "docker-credential-wincred": executable file not found in %PATH%, out: ``
+
+Im using Window 10, from ~/.docker/config.json
+
+I just remove the "credsStore": "wincred" and it work for me.
+
+cd to ~/.docker/ folder inside docker toolbox and edit the file as mentioned.
+
+
+
 Sample Success message
 Successfully built a188fcf885e4
 Successfully tagged iameprel/angular-cli:latest
